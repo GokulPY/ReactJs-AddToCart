@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+body {
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-image: linear-gradient(to top, #96fbc4 50%, #f9f586 100%);
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headname {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    height: 75px;
+    padding-left: 25px;
+    font-size: x-large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cartname {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.productname {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.productcenter {
+    width: 20%;
+    padding: 0px 25px 0px 7px;
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.images {
+    scale: 0.6;
+}
+
+.textlist {
+    padding-left: 100px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+
+.s1 {
+    margin-right: 50px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.s2 {
+    margin-right: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.s3 {
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.b1 {
+    margin-right: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.b2 {
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.totalamount {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 610px;
+}
+
+.cartc {
+    cursor: pointer;
+    background-color: #f9f586;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.ATC {
+    border-radius: 50px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: yellowgreen;
+    font-weight: bolder;
+    cursor: pointer;
 }
